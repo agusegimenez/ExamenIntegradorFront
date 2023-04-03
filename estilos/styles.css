@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+p{
+    line-height: 28px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Estilos Header */
+
+.container-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 6vh;
+}
+
+.navbar-header ul{
+    display: flex;
+    gap: 30px;
+}
+
+.navbar-header li a{
+    color: #232851;
+    transition: color 0.5s;
+}
+
+.btn-contact{
+    width: 134px;
+    padding: 15px;
+}
+
+.navbar-header li a:hover{
+    color: rgb(170, 161, 161);
+}
+
+.btn-contact, .btn-form{
+    background-color: #8B48BF;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+}
+
+.btn-contact:hover, .btn-form:hover{
+    background-color: #aa5ce6;
+    cursor: pointer;
+}
+
+/* Estilos banner */
+
+.container-banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15vh;
+    margin-bottom: 10vh;
+}
+
+.banner-texto{
+    text-align: right;
+    width: 30%;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: #232851;
+    margin-bottom: 6vh;
+}
+
+.banner-texto p{
+    font-size: 1.2rem;
+    margin-bottom: 6vh;
+}
+
+/* Estilos barra violeta */
+
+.barra-violeta{
+    background-color: #8B48BF;
+    color: white;
+    padding: 40px 0px;
+    margin-top: 4vw;
+    margin-bottom: 2vw;
+}
+
+.barra-violeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra-violeta h2{
+    font-size: 2.3rem;
+}
+
+.barra-violeta p{
+    text-align: left;
+}
+
+.barra-violeta h2, .barra-violeta p{
+    width: 30vw;
+}
+
+/* Estilos articulos */
+
+.container-articulos{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 12vh;
+    margin-bottom: 10vh;
+    gap: 50px;
+}
+
+.articulo{
+    display: flex;
+    gap: 15px;
+}
+
+.indicador-articulos{
+    background-color: #8B48BF;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 30px;
+    font-weight: 700;
+}
+
+.container-articulos h4, .container-articulos p{
+    width: 30vw;
+}
+
+.container-articulos h4{
+    margin-bottom: 20px;
+}
+
+/* Estilos cards */
+
+.titulo-cards{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.titulo-cards h2{
+    color: #232851;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.card1, .card2, .card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.card1 p, .card2 p, .card3 p{
+    color: #B3B2B7;
+    text-align: center;
+    width: 25vw;
+}
+
+.card1 h4, .card2 h4,.card3 h4{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.card1 img, .card2 img, .card3 img{
+    width: 15%;
+    position: relative;
+    left: 42.5%;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    margin-bottom: 7vw;
+}
+
+/* Estilos 2da barra violeta */
+
+.barra-violeta-2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #8B48BF;
+    color: white;
+    width: 100%;
+    padding: 40px 0px;
+    margin-top: 4vw;
+}
+
+.barra-violeta-2 h2{
+    width: 33vw;
+    font-size: 2.5rem;
+}
+
+.btn-goforit{
+    padding: 15px;
+    background-color: white;
+    border: none;
+    color:#8B48BF;
+    border-radius: 50px;
+    width: 134px;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+}
+
+.btn-goforit:hover{
+    background-color: #B3B2B7;
+    color: white;
+    cursor: pointer;
+}
+
+/* Estilos footer */
+
+footer{
+    background-color: #1E1E26;
+    color: white;
+    padding: 5vh;
+}
+
+.container-footer{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.logo-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.redes{
+    display: flex;
+    gap: 10px;
+}
+
+.menu-footer{
+    display: flex;
+    gap: 10vw;
+}
+
+footer div nav ul li{
+    padding: 10px;
+}
+
+
+footer div nav ul li a{
+    color: white;
+    transition: all 0.5s;
+}
+
+footer div nav ul li a:hover{
+    color: #B3B2B7;
+}
+
+form div input{
+    width: 200px;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+.btn-form{
+    width: 63px;
+    padding: 10px;
+}
+
+.copyright{
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+footer p{
+    text-align: right;
+}
+
+span{
+    color: #B3B2B7;
+    font-size: 0.8rem;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 480px){
+
+    /* Estilos header */
+
+    .navbar-header nav ul{
+        display: none;
+    }
+
+    .container-header .btn-contact{
+        display: none;
+    }
+
+    .navbar-header nav::before{
+        content: url(../img/icon-hamburger.svg);
+    }
+
+
+    /*Estilos banner */
+
+    .container-banner{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 5vh;
+        gap: 10vh;
+    }
+
+    .banner-texto{
+        width: 90%;
+    }
+
+    .container-banner img{
+        width: 90%;
+        height: 90%;
+    }
+
+    /* Estilo barra violeta 1 */
+
+    .barra-violeta{
+        background-color: #3CDDF3;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .barra-violeta h2, .barra-violeta p{
+        width: 90%;
+    }
+
+    .barra-violeta p::before{
+        content: "Manage provides all the functionality your team needs, without the complexity. Our software is tailor-made for modern digital product teams";
+        color: white;
+    }
+
+    /* Estilos articulos */
+
+    .container-articulos{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-left: 10px;
+    }
+
+    .container-articulos h4, .container-articulos p{
+        width: 100%;
+    }
+
+    .container-articulos h4{
+        background-color: rgba(139, 72, 191, 0.3);
+        border-radius: 50px 0px 0px 50px;
+    }
+
+    /* Estilos cards */
+
+    .container-cards{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card2, .card3{
+        display: none;
+    }
+
+    .card1{
+        text-align: center;
+        width: 100%;
+        gap: 5vh;
+    }
+
+    .card1 p{
+        text-align: center;
+        width: 100%;
+    }
+
+    .container-btn{
+        margin-top:10vh;
+    }
+
+
+    /* Estilos 2da barra violeta */
+
+    .barra-violeta-2{
+        background-color: #3CDDF3;
+        flex-direction: column;
+        gap: 10vh;
+    }
+
+    .barra-violeta-2 h2{
+        width: auto;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        text-align: center;
+    }
+
+    .btn-goforit{
+        background-color: #232C50;
+        color: white;
+    }
+
+    /* Estilos footer */
+
+
+    .container-footer{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .container-footer div form{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-redes{
+        gap:50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .redes{
+        gap: 50px;
+    }
+
+    .copyright p{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .menu-footer{
+        gap: 50px;
+    }
+
+}
