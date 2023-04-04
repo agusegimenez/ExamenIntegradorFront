@@ -61,6 +61,14 @@ a{
     cursor: pointer;
 }
 
+.container-header a img{
+    transition: all 0.5s;
+}
+
+.container-header a img:hover{
+    transform: scale(1.1);
+}
+
 /* Estilos banner */
 
 .container-banner{
@@ -313,6 +321,13 @@ span{
     font-size: 0.8rem;
 }
 
+.logo-redes .redes a{
+    transition: all 0.5s;
+}
+
+.logo-redes .redes a:hover{
+    transform: scale(1.1);
+}
 
 
 /* MEDIA QUERIES */
@@ -320,6 +335,10 @@ span{
 @media (max-width: 480px){
 
     /* Estilos header */
+
+    .container-header a img{
+        transition: none;
+    }
 
     .navbar-header nav ul{
         display: none;
@@ -471,6 +490,10 @@ span{
 
     .redes{
         gap: 60px;
+    }
+
+    .logo-redes .redes a{
+        transition: none;
     }
 
     .copyright p{
