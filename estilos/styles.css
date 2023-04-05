@@ -132,14 +132,10 @@ h1{
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 12vh;
-    margin-bottom: 10vh;
-    gap: 50px;
-}
-
-.articulo{
-    display: flex;
-    gap: 15px;
+    margin-top: 5vh;
+    margin-bottom: 15vh;
+    margin-left: 13vw;
+    gap: 60px;
 }
 
 .indicador-articulos{
@@ -151,12 +147,25 @@ h1{
 }
 
 .container-articulos h4, .container-articulos p{
-    width: 30vw;
+    width: 25vw;
 }
 
 .container-articulos h4{
     margin-bottom: 20px;
 }
+
+.articulo div h4{
+    position: relative;
+    right: 88px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.articulo{
+    width: 37%;
+}
+
 
 /* Estilos cards */
 
@@ -412,6 +421,19 @@ span{
     .container-articulos h4{
         background-color: rgba(139, 72, 191, 0.3);
         border-radius: 50px 0px 0px 50px;
+    }
+
+    .articulo{
+        width: 100%;
+    }
+
+    .articulo div h4{
+        right: 0px;
+        gap: 16px;
+    }
+
+    .articulo div p{
+        margin-left: 3px;
     }
 
     /* Estilos cards */
