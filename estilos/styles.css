@@ -352,7 +352,6 @@ span{
         content: url(../img/icon-hamburger.svg);
     }
 
-
     /*Estilos banner */
 
     .container-banner{
@@ -447,7 +446,6 @@ span{
         margin-bottom: 8vh;
     }
 
-
     /* Estilos 2da barra violeta */
 
     .barra-violeta-2{
@@ -469,7 +467,6 @@ span{
     }
 
     /* Estilos footer */
-
 
     .container-footer{
         flex-direction: column-reverse;
